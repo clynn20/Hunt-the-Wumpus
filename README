@@ -1,0 +1,16 @@
+This is a C++ program to play Hunt the Wumpus.
+As a player, you are placed in a square grid of connected caves. In this game, you would want to avoid fatal bottomless pits, super bats, and the Wumpus. The goal is to find the gold, kill the Wumpus then return back to the start point cave. In each turn, you could either move to different cave or fire an arrow to Wumpus if you suspect the Wumpus is around your cave. If you are close to the pits, super bats or the Wumpus, you'll get the warning message. Wish you good luck.
+
+Use command make to compile the program.
+
+Use the below command format to start the program.
+
+./hunt <# of grid> <mode>
+
+notes: # of grid must bigger than 4 and mode is either true or false
+
+Example command of playing Hunt the Wumpus with gird 5 x 5 under normal mode
+./hunt 5 false
+
+Example command of playing Hunt the Wumpus with grid 5 x 5 under cheating mode
+./hunt 5 true
